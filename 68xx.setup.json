@@ -1,0 +1,33 @@
+{
+  "createdByVersion": "2.1.0",
+  "createdOn": "2019-08-09T19:31:12.5850635+05:30",
+  "configUsed": "D:\\ti\\studio\\mmwave_studio_02_01_01_00\\mmWaveStudio\\JSONSampleFiles\\68xx\\68xx.mmwave.json",
+  "captureHardware": "DCA1000",
+  "DCA1000Config": {
+    "dataLoggingMode": "raw",
+    "dataTransferMode": "LVDSCapture",
+    "dataCaptureMode": "ethernetStream",
+    "packetSequenceEnable": 1,
+    "packetDelay_us": 25
+  },
+  "mmWaveDevice": "iwr6843",
+  "operatingFreq": 60,
+  "mmWaveDeviceConfig": {
+    "RS232COMPort": "COM25",
+    "RS232BaudRate": "921600",
+    "radarSSFirmware": "D:\\ti\\studio\\mmwave_studio_02_01_01_00\\rf_eval_firmware\\radarss\\xwr68xx_radarss.bin",
+    "masterSSFirmware": "D:\\ti\\studio\\mmwave_studio_02_01_01_00\\rf_eval_firmware\\masterss\\xwr68xx_masterss.bin"
+  },
+  "capturedFiles": {
+    "numFilesCollected": 1,
+    "fileBasePath": "C:\\Users\\11930\\Desktop\\TI_Analyse\\TI_Analyse",
+    "files": [
+      {
+        "processedFileName": "data1_8.5.bin",
+        "processedFileSummary": {
+          "numZeroFillBytes": 0
+        }
+      }
+    ]
+  }
+}
