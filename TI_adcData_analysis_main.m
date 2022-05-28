@@ -27,8 +27,10 @@ radar_data_cube = permute(radar_data,[1 3 2 4]);
 %%%%%%%%%%% Plot %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % figure(1),mesh(abs(radar_data_cube(:,:,1,1)));%1DFFT data
 figure(1),mesh(real(radar_data_cube(:,:,1,1)));%ADC RAW
-mesh(imag(radar_data_cube(:,:1,1))
-%plot(imag(radar_data_cube(:,:,1,1)),'b');
 legend('Real');
-figure(2),plot(real(radar_data_cube(:,1,1,1)));
+figure(2),mesh(imag(radar_data_cube(:,:,1,1)));
+legend('imag');
+%plot(imag(radar_data_cube(:,:,1,1)),'b');
+
+figure(3),plot(real(radar_data_cube(:,1,1,1)));
 hold on,plot(imag(radar_data_cube(:,1,1,1)));
